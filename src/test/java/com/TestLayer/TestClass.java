@@ -23,6 +23,12 @@ public class TestClass extends BaseClass{
 		
 	}
 	
+	@Test
+	public void firstTesterProgram()
+	{
+		System.out.println("Check the Script is done by Tester 01");
+	}
+	
 	@AfterClass
 	public void tearDown() throws InterruptedException
 	{
