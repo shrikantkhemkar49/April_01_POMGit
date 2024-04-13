@@ -29,6 +29,13 @@ public class TestClass extends BaseClass{
 		System.out.println("Check the Script is done by Tester 01");
 	}
 	
+	@Test
+	public void secondTesterProgram()
+	{
+		System.out.println("Check the Script is done by Tester 02");
+		
+	}
+	
 	@AfterClass
 	public void tearDown() throws InterruptedException
 	{
